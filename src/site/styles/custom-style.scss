@@ -7,8 +7,6 @@ body.theme-light {
 
 body {
   /* colors */
-  --base:#f6eeee;
-  --background-primary:#f6eeee;
   --base-background-color:#f6eeee;
   /* headers */
   --h1-color:#907aa9;
@@ -43,14 +41,7 @@ body {
     line-height: 1.4;
   }
   /* toc */
-  .toc {
-    background-color:var(--base-background-color);
-  }
   .toc-container {
     max-height: 350px;
-  }
-  /* backlinks */
-  .backlinks {
-    background-color: var(--base-background-color);
   }
 }
