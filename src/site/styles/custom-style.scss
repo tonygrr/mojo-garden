@@ -1,13 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 body {
-    /***
-      ADD YOUR CUSTOM STYLIING HERE. (INSIDE THE body {...} section.)
-      IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
-   ***/
-    //  background-color: white;
-    //  .content {
-    //   font-size: 14px;
-    //  }
-    //  h1 {
-    //   color: black;
-    //  }
+  /* content */
+  .content {
+    max-width: 1000px;
+    margin-left: none;
+    margin-right: auto;
+    font-size: 20px;
+    font-family: 'PT Mono', monospace;
+    line-height: 1.4;
+    color: #d5d5d5;
+  }
+
+  /* headers */
+  h1 {
+    font-size: 1.5em;
+    font-family: 'JetBrains Mono';
+    color: #b4befe;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }	
+  h2 {
+    font-size: 1.3em;
+    font-family: 'JetBrains Mono';
+    color: #f5e0dc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }
+  h3 {
+    font-size: 1.2em;
+    font-family: 'JetBrains Mono';
+    color: #ede482;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }
+  h4 {
+    font-size: 1.2em;
+    font-family: 'JetBrains Mono';
+    color: #ede482d6;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }	
+  h5 {
+    font-size: 1.2em;
+    font-family: 'JetBrains Mono';
+    color: #ede482ad;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }	
+  h6 {
+    font-size: 1.2em;
+    font-family: 'JetBrains Mono';
+    color: #ede48296;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+  }
 }
