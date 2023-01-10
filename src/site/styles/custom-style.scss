@@ -45,7 +45,7 @@ body {
     margin-top: 10pt;
     margin-bottom: 10pt;
     width: auto;
-    max-width: 300pt;
+    max-width: 300rem;
     transition: transform 0.25s ease-out;
     cursor: zoom-in;
   }
@@ -63,5 +63,10 @@ body {
   /* toc */
   .toc-container {
     max-height: 350px;
+  }
+  /* removing h1 in embedded notes */
+  h1#soobshhenie-1 {
+    margin-block-start: 0em;
+    display: none;
   }
 }
