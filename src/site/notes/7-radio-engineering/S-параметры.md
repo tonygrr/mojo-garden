@@ -1,5 +1,5 @@
 ---
-{"title":"S-параметры","date-created":"2023.01.07, 23:11","date-modified":"2023.01.07, 23:18","aliases":[],"tags":[],"dg-publish":true,"permalink":"/7-radio-engineering/s-parametry/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/7-radio-engineering/s-parametry/","title":"S-параметры"}
 ---
 
 
