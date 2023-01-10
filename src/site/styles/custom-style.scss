@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
+
+body.theme-light {
+  background:var(--background-primary);
+}
+
 body {
   /* colors */
   --base:#f6eeee;
@@ -24,10 +29,6 @@ body {
   --h6-color:#4c4f69;
   --h6-font:'JetBrains Mono';
   --h6-size: 1.1em;
-  
-  body.theme-light {
-    background:var(--base-background-color);
-  }
 
   /* content */
   .content {
