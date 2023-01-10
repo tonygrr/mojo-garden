@@ -23,8 +23,8 @@ body {
   --h6-font:'JetBrains Mono';
   --h6-size: 1.1em;
   
-  .theme-light {
-    background-color:var(--base-background-color);
+  body.theme-light {
+    background:var(--base-background-color);
   }
 
   /* content */
