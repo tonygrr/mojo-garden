@@ -5,9 +5,9 @@
 
 # Test tags
 
-- #π/definition: 
+- #d/definition:
 	- **Test tags** — ...
-- #π/images:
+- #d/images:
 	- ...
-- #π/formula:
+- #d/formula:
 	- ...
