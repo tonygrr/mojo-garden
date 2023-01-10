@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 body {
+  --h1-color:#b4befe;
+  --h1-font:'JetBrains Mono';
+  --h1-size: 1.5em;
+
   /* content */
   .content {
     max-width: 1000px;
@@ -12,13 +16,6 @@ body {
   }
 
   /* headers */
-  h1, .markdown-rendered h1, .HyperMD-header-1, .HyperMD-list-line .cm-header-1 {
-    font-size: 1.5em;
-    font-family: 'JetBrains Mono';
-    color: #b4befe;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-  }	
   h2 {
     font-size: 1.3em;
     font-family: 'JetBrains Mono';
