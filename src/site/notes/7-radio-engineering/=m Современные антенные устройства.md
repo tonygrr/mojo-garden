@@ -1,5 +1,5 @@
 ---
-{"title":"=m Современные антенные устройства","date-created":"2023.01.06, 12:21","date-modified":"2023.01.10, 17:03","aliases":["САУ"],"tags":["антенны"],"dg-publish":true,"dg-home-link":true,"permalink":"/7-radio-engineering/m-sovremennye-antennye-ustrojstva/","dgHomeLink":true,"dgPassFrontmatter":true}
+{"title":"=m Современные антенные устройства","date-created":"2023.01.06, 12:21","date-modified":"2023.01.10, 20:25","aliases":["САУ"],"tags":["антенны"],"dg-publish":true,"permalink":"/7-radio-engineering/m-sovremennye-antennye-ustrojstva/","dgPassFrontmatter":true}
 ---
 
 
