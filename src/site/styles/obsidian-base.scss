@@ -2459,7 +2459,7 @@ body {
   }
   .community-readme video,
   .community-readme img {
-    max-width: 100%;
+    max-width: 300pt;
   }
   .community-modal-info-desc {
     font-size: var(--font-ui-medium);
@@ -2901,7 +2901,7 @@ body {
   .workspace-leaf-content img:not([width]),
   .workspace-leaf-content audio,
   .workspace-leaf-content video {
-    max-width: 100%;
+    max-width: 300pt;
   }
   .workspace-fake-target-overlay,
   .workspace-drop-overlay {

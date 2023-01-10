@@ -45,12 +45,9 @@ body {
     margin-top: 10pt;
     margin-bottom: 10pt;
     width: auto;
-    max-width: 300rem;
+    max-width: 300pt;
     transition: transform 0.25s ease-out;
     cursor: zoom-in;
-  }
-  body.markdown-preview-view img:not([width]), body.markdown-rendered img:not([width]) {
-    max-width: 300pt;
   }
   img:hover {
     /* box-shadow: 0 1px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%); */
