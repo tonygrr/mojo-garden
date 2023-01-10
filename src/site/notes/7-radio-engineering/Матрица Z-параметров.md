@@ -1,5 +1,5 @@
 ---
-{"title":"Матрица Z-параметров","date-created":"2023.01.07, 20:45","date-modified":"2023.01.07, 23:19","aliases":["матрица импедансов"],"tags":[],"dg-publish":true,"permalink":"/7-radio-engineering/matricza-z-parametrov/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/7-radio-engineering/matricza-z-parametrov/","title":"Матрица Z-параметров"}
 ---
 
 
