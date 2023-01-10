@@ -49,7 +49,7 @@ body {
     transition: transform 0.25s ease-out;
     cursor: zoom-in;
   }
-  .markdown-preview-view img:not([width]), .markdown-rendered img:not([width]) {
+  body.markdown-preview-view img:not([width]), body.markdown-rendered img:not([width]) {
     max-width: 300pt;
   }
   img:hover {
