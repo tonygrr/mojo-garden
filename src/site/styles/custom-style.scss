@@ -49,6 +49,9 @@ body {
     transition: transform 0.25s ease-out;
     cursor: zoom-in;
   }
+  .markdown-preview-view img:not([width]), .markdown-rendered img:not([width]) {
+    max-width: 300pt;
+  }
   img:hover {
     /* box-shadow: 0 1px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%); */
     transform: translate3d(0px, -7px, 0px);
