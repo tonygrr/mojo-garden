@@ -4801,7 +4801,7 @@ body {
   }
   .popover.hover-popover.image-embed img {
     max-height: 100%;
-    max-width: 100%;
+    max-width: 300pt;
     height: auto;
   }
   .popover.hover-popover.pdf-embed {
@@ -6673,7 +6673,7 @@ body {
   }
   .markdown-preview-view img:not([width]),
   .markdown-rendered img:not([width]) {
-    max-width: 100%;
+    max-width: 300pt;
     outline: none;
   }
   .cm-s-obsidian .CodeMirror-linewidget a > img,
@@ -6683,7 +6683,7 @@ body {
   .cm-s-obsidian img.hmd-image {
     vertical-align: middle;
     width: auto;
-    max-width: 100%;
+    max-width: 300pt;
     height: auto;
   }
   .cm-s-obsidian img.hmd-image.hmd-image-loading,
@@ -8691,7 +8691,7 @@ body {
     text-align: center;
   }
   .sync-history-content-other img {
-    max-width: 100%;
+    max-width: 300pt;
   }
   .sync-history-content-container.mod-empty .sync-history-content,
   .sync-history-content-container.mod-empty .sync-history-content-buttons {
