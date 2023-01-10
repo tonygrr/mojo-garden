@@ -1,5 +1,5 @@
 ---
-{"title":"Матрица S-параметров","date-created":"2022.11.10, 23:42","date-modified":"2023.01.07, 23:18","aliases":["матрица рассеяния"],"tags":["свч"],"dg-publish":true,"permalink":"/7-radio-engineering/matricza-s-parametrov/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/7-radio-engineering/matricza-s-parametrov/","title":"Матрица S-параметров","tags":["свч"]}
 ---
 
 
