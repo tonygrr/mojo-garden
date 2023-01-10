@@ -1,5 +1,5 @@
 ---
-{"title":"=m Математические методы прикладной электродинамики","date-created":"2022.02.10, 21:10","date-modified":"2022.12.12, 21:22","aliases":["ммпэд"],"tags":["moc","ммпэд","электродинамика"],"dg-publish":true,"permalink":"/7-radio-engineering/m-matematicheskie-metody-prikladnoj-elektrodinamiki/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/7-radio-engineering/m-matematicheskie-metody-prikladnoj-elektrodinamiki/","title":"=m Математические методы прикладной электродинамики","tags":["moc","ммпэд","электродинамика"]}
 ---
 
 
