@@ -1,9 +1,31 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 body {
-  --h1-color:#b4befe;
+  /* colors */
+  --base-background-color:#eeddeb;
+  /* headers */
+  --h1-color:#907aa9;
   --h1-font:'JetBrains Mono';
   --h1-size: 1.5em;
+  --h2-color:#d6817d;
+  --h2-font:'JetBrains Mono';
+  --h2-size: 1.3em;
+  --h3-color:#56949f;
+  --h3-font:'JetBrains Mono';
+  --h3-size: 1.2em;
+  --h4-color:#4c4f69;
+  --h4-font:'JetBrains Mono';
+  --h4-size: 1.1em;
+  --h5-color:#4c4f69;
+  --h5-font:'JetBrains Mono';
+  --h5-size: 1.1em;
+  --h6-color:#4c4f69;
+  --h6-font:'JetBrains Mono';
+  --h6-size: 1.1em;
+  
+  theme-light {
+    background-color:var(--base-background-color);
+  }
 
   /* content */
   .content {
@@ -15,40 +37,15 @@ body {
     line-height: 1.4;
   }
 
-  /* headers */
-  h2 {
-    font-size: 1.3em;
-    font-family: 'JetBrains Mono';
-    color: #f5e0dc;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+  /* toc */
+  .toc {
+    background-color:var(--base-background-color);
   }
-  h3 {
-    font-size: 1.2em;
-    font-family: 'JetBrains Mono';
-    color: #ede482;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+  .toc-container {
+    max-height: 350px;
   }
-  h4 {
-    font-size: 1.2em;
-    font-family: 'JetBrains Mono';
-    color: #ede482d6;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-  }	
-  h5 {
-    font-size: 1.2em;
-    font-family: 'JetBrains Mono';
-    color: #ede482ad;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-  }	
-  h6 {
-    font-size: 1.2em;
-    font-family: 'JetBrains Mono';
-    color: #ede48296;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
+  /* backlinks */
+  .backlinks {
+    background-color: var(--base-background-color);
   }
 }
