@@ -1,5 +1,5 @@
 ---
-{"title":"a и b параметры","date-created":"2023.01.07, 21:49","date-modified":"2023.01.07, 21:54","aliases":[],"tags":[],"dg-publish":true,"permalink":"/7-radio-engineering/a-i-b-parametry/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/7-radio-engineering/a-i-b-parametry/","title":"a и b параметры"}
 ---
 
 
