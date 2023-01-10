@@ -1,5 +1,5 @@
 ---
-{"title":"Матрица Y-параметров","date-created":"2023.01.07, 21:11","date-modified":"2023.01.07, 21:30","aliases":["матрица адмиттансов"],"tags":[],"dg-publish":true,"permalink":"/7-radio-engineering/matricza-y-parametrov/","dgPassFrontmatter":true}
+{"dg-publish":true,"permalink":"/7-radio-engineering/matricza-y-parametrov/","title":"Матрица Y-параметров"}
 ---
 
 
