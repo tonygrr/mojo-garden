@@ -71,7 +71,9 @@ body {
     margin-block-start: 0em;
     display: none;
   }
+  /* callouts */
   div[class*=language-ad-], div[class*=callout-] {
     font-family: 'PT Mono', monospace;
+    font-size: 20px;
   }
 }
