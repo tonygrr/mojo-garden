@@ -60,10 +60,18 @@ body {
   /* toc */
   .toc-container {
     max-height: 350px;
+    font-family: 'JetBrains Mono';
+  }
+  /* backlinks */
+  .backlinks {
+    font-family: 'JetBrains Mono';
   }
   /* removing h1 in embedded notes */
   h1#soobshhenie-1 {
     margin-block-start: 0em;
     display: none;
+  }
+  div[class*=language-ad-], div[class*=callout-] {
+    font-family: 'PT Mono', monospace;
   }
 }
