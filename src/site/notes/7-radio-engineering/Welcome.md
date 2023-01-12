@@ -18,4 +18,5 @@
 
 > [!example] Test
 > [[7-radio-engineering/Tags\|Tags]]
+> [[7-radio-engineering/Excalidraw test\|Excalidraw test]]
 
