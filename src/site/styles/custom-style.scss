@@ -94,6 +94,15 @@ body {
   div.language-ad-warning, div.callout-warning {
     background-color: #d9796080;
   }
+  div.language-ad-done .admonition-title::before, div.callout-done .admonition-title::before {
+    content: "✔️";
+  }
+  div.language-ad-done, div.callout-done {
+    background-color: #2a975780;
+  }
+  div.language-ad-example, div.callout-example {
+    background-color: rgb(108 86 171 / 50%);
+  }
   /* graph */
   .graph .graph-title {
     background-color: transparent;
