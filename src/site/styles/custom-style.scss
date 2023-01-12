@@ -58,9 +58,11 @@ body {
     transform: scale(1.3);
   }
   /* toc */
+  .toc {
+    font-family: 'JetBrains Mono';
+  }
   .toc-container {
     max-height: 350px;
-    font-family: 'JetBrains Mono';
   }
   /* backlinks */
   .backlinks {
