@@ -88,21 +88,24 @@ body {
     font-weight: 700;
     font-family: 'JetBrains Mono';
   }
-  div.language-ad-warning .admonition-title::before, div.callout-warning .admonition-title::before {
-    content: "⚠️";
-  }
-  div.language-ad-warning, div.callout-warning {
-    background-color: #d9796080;
-  }
-  div.language-ad-done .admonition-title::before, div.callout-done .admonition-title::before {
-    content: "✔️";
-  }
-  div.language-ad-done, div.callout-done {
-    background-color: #2a975780;
-  }
-  div.language-ad-example, div.callout-example {
-    background-color: rgb(108 86 171 / 50%);
-  }
+    /* warning */
+    div.language-ad-warning .admonition-title::before, div.callout-warning .admonition-title::before {
+      content: "⚠️";
+    }
+    div.language-ad-warning, div.callout-warning {
+      background-color: #d5763f1a;
+    }
+    /* done */
+    div.language-ad-done .admonition-title::before, div.callout-done .admonition-title::before {
+      content: "✔️";
+    }
+    div.language-ad-done, div.callout-done {
+      background-color: #a8c3731a;
+    }
+    /* example */
+    div.language-ad-example, div.callout-example {
+      background-color: #9e86c81a;
+    }
   /* graph */
   .graph .graph-title {
     background-color: transparent;
