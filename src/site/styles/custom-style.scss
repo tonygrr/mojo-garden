@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=PT+Mono&display=swap');
 
 body {
+  /* image */
+  --image-width:100%;
   /* colors */
   --base-background-color:#f6eeee;
   --color-accent: #888caa;
@@ -45,7 +47,7 @@ body {
     margin-top: 10pt;
     margin-bottom: 10pt;
     width: auto;
-    max-width: 300pt;
+    max-width: var(--image-width);
     transition: transform 0.25s ease-out;
     cursor: zoom-in;
   }
