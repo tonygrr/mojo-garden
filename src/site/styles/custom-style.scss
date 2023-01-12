@@ -4,9 +4,9 @@
 body {
   /* colors */
   --base-background-color:#f6eeee;
-  --color-accent: #907aa9;
-  --link-color:#907aa9;
-  --text-accent:#907aa9;
+  --color-accent: #888caa;
+  --link-color:#888caa;
+  --text-accent:#888caa;
   /* headers */
   --h1-color:#907aa9;
   --h1-font:'JetBrains Mono';
@@ -93,5 +93,9 @@ body {
   }
   div.language-ad-warning, div.callout-warning {
     background-color: #d9796080;
+  }
+  /* graph */
+  .graph .graph-title {
+    background-color: transparent;
   }
 }
