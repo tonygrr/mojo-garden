@@ -5,8 +5,6 @@
 
 # Welcome
 
-
-
 > [!warning] Предстоящая духота
 > [[7-radio-engineering/=m Радиоприёмные устройства СВЧ\|=m Радиоприёмные устройства СВЧ]]
 
@@ -19,4 +17,3 @@
 > [!example] Test
 > [[7-radio-engineering/Tags\|Tags]]
 > [[7-radio-engineering/Excalidraw test\|Excalidraw test]]
-
