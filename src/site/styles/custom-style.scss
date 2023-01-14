@@ -73,6 +73,10 @@ body {
   .backlinks {
     font-family: 'JetBrains Mono';
   }
+  .no-backlinks-message {
+    font-size: 1rem;
+    color: var(--text-normal);
+  }
   /* removing h1 in embedded notes */
   h1#soobshhenie-1 {
     margin-block-start: 0em;
