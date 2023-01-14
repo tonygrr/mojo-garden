@@ -8,8 +8,10 @@ body {
   --base-background-color:#f6eeee;
   --color-accent: #f5e0dc;
   --link-color:#f5e0dc;
+  --link-color-hover:#ffebe7;
+  --link-external-color-hover:#ffebe7;
   --text-accent:#f5e0dc;
-  /* --text-accent:#888caa; */
+    /* --text-accent:#888caa; */
   /* headers */
   --h1-color:#d9e0ee;
   --h1-font:'JetBrains Mono';
@@ -37,6 +39,10 @@ body {
     font-size: 20px;
     font-family: 'PT Mono', monospace;
     line-height: 1.4;
+  }
+  a:hover {
+    color: var(--link-color-hover);
+    text-decoration-line: var(--link-decoration-hover);
   }
   /* images */
   img {
