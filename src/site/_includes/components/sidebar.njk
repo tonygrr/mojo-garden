@@ -5,7 +5,7 @@
                   {%if settings.dgShowLocalGraph === true%}
                         <div class="graph">
                               <div class="graph-title-container">
-                                    <div class="graph-title">Local graph</div>
+                                    <div class="graph-title">Connected Pages</div>
                               </div>
                               <div id="link-graph"></div>
                         </div>
@@ -17,7 +17,7 @@
                                     <div class="toc">
                                           <div class="toc-title-container">
                                                 <div class="toc-title">
-                                                      Table of content
+                                                      On this page
                                                 </div>
                                           </div>
                                           <div class="toc-container">
@@ -30,12 +30,12 @@
 
                               {%if settings.dgShowBacklinks === true %}
                                     <div class="backlinks">
-                                          <div class="backlink-title" style="margin: 4px 0 !important;">Backlinks</div>
+                                          <div class="backlink-title" style="margin: 4px 0 !important;">Pages mentioning this page</div>
                                                 <div class="backlink-list">
 
                                                 {%- if backlinks.length === 0 -%}
                                                       <div class="backlink-card">
-                                                            <span class="no-backlinks-message">Contentlessness </span>
+                                                            <span class="no-backlinks-message">No other pages mentions this page</span>
                                                       </div>
                                                 {%- endif -%}
 
