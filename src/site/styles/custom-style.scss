@@ -14,7 +14,10 @@ body {
   --link-color-hover:#ffebe7;
   --link-external-color-hover:#ffebe7;
   --text-accent:#f5e0dc;
-    /* --text-accent:#888caa; */
+  /* --text-accent:#888caa; */
+  /* tags */
+  --tag-radius: 0.4em;
+  --tag-padding-x: 0.35em;
   /* headers */
   --h1-color:#d9e0ee;
   --h1-font:var(--h-font);
@@ -86,6 +89,13 @@ body {
     display: none;
   }
   /* callouts */
+  .callout {
+    transition: transform 0.25s cubic-bezier(0.4, 0, 1, 1);
+  }
+  .callout:hover {
+    transform: translate3d(1px, -3px, 0px);
+    box-shadow: 10px 10px 1px 0px #000000;
+  }
   div[class*=language-ad-], div[class*=callout-] {
     font-family:var(--h-font);
     font-size: var(--font-size);
@@ -127,4 +137,19 @@ body {
   .graph .graph-title {
     background-color: transparent;
   }
+  /* Embeded pages */
+  .internal-embed .markdown-embed {
+    border: 0;
+    border-left: 0px solid var(--quote-opening-modifier);
+    border-radius: 6px;
+    background: var(--background-secondary);
+    padding-top: 1px;
+    transition: transform 0.25s cubic-bezier(0.4, 0, 1, 1);
+  }
+  .internal-embed:not([src*="#^"]) .markdown-embed-link {
+    right: 0;
+    width: 100%;
+    margin-right: 0.8rem;
+    margin-top: 2.1rem;
+  } 
 }
