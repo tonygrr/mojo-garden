@@ -114,8 +114,8 @@ body {
     background: rgba(var(--callout-color), 0.1);
     border-bottom: dotted rgba(var(--callout-color), 0.5);
     margin-left: -1.5rem;
-    margin-top: -0.7rem;
-    margin-right: -0.7rem;
+    margin-top: -0.8rem;
+    margin-right: -0.8rem;
   }
   .callout:hover {
     transform: translate3d(1px, -3px, 0px);
@@ -146,18 +146,18 @@ body {
         content: "⚠️";
       }
       div.language-ad-warning, div.callout-warning {
-        background-color: #d5763f1a;
+        background-color: #36332c;
       }
       /* done */
       div.language-ad-done .admonition-title::before, div.callout-done .admonition-title::before {
         content: "✔️";
       }
       div.language-ad-done, div.callout-done {
-        background-color: #a8c3731a;
+        background-color: #2f312c;
       }
       /* example */
       div.language-ad-example, div.callout-example {
-        background-color: #9e86c81a;
+        background-color: #302c30;
       }
   /* graph */
   .graph .graph-title {
