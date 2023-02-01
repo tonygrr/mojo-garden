@@ -145,19 +145,22 @@ body {
       div.language-ad-warning .admonition-title::before, div.callout-warning .admonition-title::before {
         content: "⚠️";
       }
-      div.language-ad-warning, div.callout-warning {
-        background-color: #36332c;
+      .callout[data-callout=warning], .callout[data-callout=caution], .callout[data-callout=attention] {
+        --callout-color: 163, 188, 135;
+        --callout-icon: lucide-alert-triangle;
       }
       /* done */
       div.language-ad-done .admonition-title::before, div.callout-done .admonition-title::before {
         content: "✔️";
       }
-      div.language-ad-done, div.callout-done {
-        background-color: #2f312c;
+      .callout[data-callout=success], .callout[data-callout=check], .callout[data-callout=done] {
+        --callout-color: 235, 203, 136;
+        --callout-icon: lucide-check;
       }
       /* example */
-      div.language-ad-example, div.callout-example {
-        background-color: #302c30;
+      .callout[data-callout=example] {
+        --callout-color: 163, 135, 169;
+        --callout-icon: lucide-list;
       }
   /* graph */
   .graph .graph-title {
