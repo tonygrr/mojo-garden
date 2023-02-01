@@ -146,7 +146,7 @@ body {
         content: "⚠️";
       }
       .callout[data-callout=warning], .callout[data-callout=caution], .callout[data-callout=attention] {
-        --callout-color: 163, 188, 135;
+        --callout-color: 235, 203, 136;
         --callout-icon: lucide-alert-triangle;
       }
       /* done */
@@ -154,7 +154,7 @@ body {
         content: "✔️";
       }
       .callout[data-callout=success], .callout[data-callout=check], .callout[data-callout=done] {
-        --callout-color: 235, 203, 136;
+        --callout-color: 163, 188, 135;
         --callout-icon: lucide-check;
       }
       /* example */
