@@ -18,7 +18,7 @@ body {
   /* tags */
   --tag-radius: 0.4em;
   --tag-padding-x: 0.35em;
-  --tag-border-color: #4f4f4f;
+  --tag-border-color: #575757;
   /* callouts */
   --callout-radius: 7px;
   /* headers */
@@ -166,26 +166,17 @@ body {
     border: dotted var(--text-accent);
     border-radius: 10px;
     padding-top: 1px;
+    box-shadow: 10px 10px 20px 0px #121212de;
     transition: transform 0.25s cubic-bezier(0.4, 0, 1, 1);
   }
   .internal-embed .markdown-embed:hover {
     transform: translate3d(1px, -3px, 0px);
-    box-shadow: 10px 10px 1px 0px #000000;
+    box-shadow: 10px 10px 20px 0px #121212de;
   }
   .internal-embed:not([src*="#^"]) .markdown-embed-link {
     right: 0;
     width: 100%;
     margin-right: 0.8rem;
     margin-top: 2.1rem;
-  }
-  a.tag, .editor .cl-hashtag {
-    background-color: var(--tag-background);
-    border: var(--tag-border-width) solid var(--tag-border-color);
-    border-radius: var(--tag-radius);
-    color: var(--text-accent);
-    font-size: var(--tag-size);
-    text-decoration: var(--tag-decoration);
-    padding: var(--tag-padding-y) var(--tag-padding-x);
-    line-height: 1;
   }
 }
