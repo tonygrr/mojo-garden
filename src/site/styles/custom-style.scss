@@ -96,6 +96,7 @@ body {
     overflow: hidden;
     border-color: rgba(var(--callout-color), 0.1);
     border-radius: var(--callout-radius);
+    background: var(--background-primary);
     margin: 1em 0;
     mix-blend-mode: var(--callout-blend-mode);
     border: solid rgba(var(--callout-color), 0.3);
