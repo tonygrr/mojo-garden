@@ -18,7 +18,7 @@
 
 ## Источник излучения и приёма электромагнитных волн
 
-> [!info]- Антенна
+> [!example]- Антенна
 > 
 <div class="transclusion internal-embed is-loaded"><div class="markdown-embed">
 
